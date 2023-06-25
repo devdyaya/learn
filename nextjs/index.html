@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<body>
+  <div id="id">
+    <script type="text/javascript">
+      //id 'app' のDiv要素を取得
+      const app = document.getElementById('id');
+
+      //H1要素を作成
+      const header = document.createElement('h1');
+
+      //H1要素の中身を作成
+      const HeaderContent = document.createTextNode(
+        'Develop. preview. ship. 🚀',
+        );
+      
+      //テキストをH1の中に入れる
+      header.appendChild(HeaderContent);
+
+      //H1要素をDiv要素の中に入れる
+      app.appendChild(header);
+    </script>
+  </div>
+</body>
+</html>
